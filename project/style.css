@@ -1,0 +1,57 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  background-color: rgb(226, 43, 165);
+  margin-bottom: 80px;
+}
+.logo {
+  width: 8%;
+  padding-left: 50px;
+}
+.pages {
+  background-color: white;
+  width: 85%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.pages a {
+  text-decoration: none;
+  color: magenta;
+  font-size: larger;
+  font-weight: bolder;
+}
+.pages a:hover {
+  color: green;
+  transform: scale(1.2);
+}
+.barbie {
+  color: rgb(188, 108, 226);
+  text-align: center;
+}
+.image-banner {
+  height: 450px;
+  background-image: url(picture/banner.jpg);
+  background-size: cover;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: blueviolet;
+}
+pre {
+  padding-top: 150px;
+}
+
+#image-page {
+  color: rgb(103, 103, 224);
+  background-color: rgb(175, 175, 215);
+  text-align: center;
+}
+#footer {
+  margin-top: 40px;
+  text-align: center;
+  color: rgb(199, 156, 239);
+}
